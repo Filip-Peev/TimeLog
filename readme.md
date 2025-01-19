@@ -1,5 +1,5 @@
 ## Preview of the app
-![App Screenshot](https://filip-peev.com/home/timelog/images/pic2.webp)
+![App Screenshot](https://filip-peev.com/home/timelog/images/appPreview.webp)
 
 Running the App on Windows
 ==========================
