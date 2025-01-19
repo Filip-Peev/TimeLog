@@ -42,3 +42,6 @@ To run the app, double-click on the `Start.bat` file.
 Once the app is running, open your browser and go to:
 
     http://127.0.0.1:5000
+4\. Input worker IDs
+--------------------
+You can use a Handheld Scanner or manually add them and click Log button or press Enter
