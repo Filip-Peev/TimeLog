@@ -48,7 +48,6 @@ Once the app is running, open your browser and go to:
 You can use a Handheld Scanner or manually add them and click Log button or press Enter
 
 --------------------
-<br>
 
 # Docker Setup
 
