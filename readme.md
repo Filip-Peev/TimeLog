@@ -62,8 +62,9 @@ Docker installs a Linux kernel inside WSL 2 to manage containers.
 
 You will need to install WSL 2, which Docker Desktop will set up during installation.
 
-2\. Download Worker Logger - Docker.zip
+2\. Download <a href="https://github.com/Filip-Peev/TimeLog/releases/download/v0.2/Worker.Logger.-.Docker.zip" target="_blank">Worker Logger - Docker.zip</a>
 ---------------
+
 Extract the zip archive to C:\Worker-Logger for example
 
 3\. Open CMD or Terminal inside that folder
