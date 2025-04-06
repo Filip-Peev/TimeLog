@@ -1,7 +1,7 @@
 ## Preview of the app
 ![App Screenshot](https://filip-peev.com/home/timelog/images/appPreview1.webp)
 
-Running the App on Windows
+Running the App on Windows or [in Docker ](#docker-setup)
 ==========================
 
 To run the app on Windows, follow these steps:
@@ -45,3 +45,8 @@ Once the app is running, open your browser and go to:
 4\. Input worker IDs
 --------------------
 You can use a Handheld Scanner or manually add them and click Log button or press Enter
+
+--------------------
+
+## Docker Setup
+This is the section you want to link to.
