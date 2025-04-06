@@ -11,7 +11,9 @@ To run the app on Windows, follow these steps:
 
 ### 1.1 Install Python
 
-Download Python from the official website: [Python Downloads](https://www.python.org/downloads/)
+Download Python from the official website: <a href="https://www.python.org/downloads/" target="_blank">Python Downloads</a>
+
+<https://www.example.com
 
 During the installation:
 
@@ -53,7 +55,7 @@ You can use a Handheld Scanner or manually add them and click Log button or pres
 
 # Docker Setup
 
-1\. Download and Install [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/).
+1\. Download and Install <a href="https://docs.docker.com/desktop/setup/install/windows-install/)." target="_blank">Docker Desktop</a>
 ---------------
 
 Docker Desktop relies on WSL 2 (Windows Subsystem for Linux 2) for its functionality.
