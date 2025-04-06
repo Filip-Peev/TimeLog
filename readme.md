@@ -49,7 +49,6 @@ You can use a Handheld Scanner or manually add them and click Log button or pres
 
 --------------------
 <br>
-<br>
 
 # Docker Setup
 
