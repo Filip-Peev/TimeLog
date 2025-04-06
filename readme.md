@@ -13,8 +13,6 @@ To run the app on Windows, follow these steps:
 
 Download Python from the official website: <a href="https://www.python.org/downloads/" target="_blank">Python Downloads</a>
 
-<https://www.example.com
-
 During the installation:
 
 *   Check the box **"Add Python to PATH"**.
