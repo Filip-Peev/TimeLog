@@ -21,11 +21,13 @@ Once the app is running, open your browser and go to:
 
     http://127.0.0.1:5000
 
-5\. Or use the included Start file, that will run the exe and open the Browser for you.
+4a\. Or use the included Start file, that will run the exe and open the Browser for you.
 
-6\. Input worker IDs
+5\. Input worker IDs
 
 You can use a Handheld Scanner or manually add them and click Log button or press Enter
+
+6\. To close the app, click the X of the window. No worries, the data will be saved.
 
 --------------------
 
