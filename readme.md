@@ -4,47 +4,27 @@
 Running the App on Windows or [in Docker ](#docker-setup)
 ==========================
 
-To run the app on Windows, follow these steps:
+To start the app on Windows, follow these steps:
 
-1\. Install Required Software
------------------------------
+1\. Download the archive from here - 
+<a href="https://github.com/Filip-Peev/TimeLog/releases/download/v3.1/TimeLog_v3.1.rar" target="_blank">TimeLog_v3.1</a>
 
-### 1.1 Install Python
+2\. Extract the archive somewhere.
 
-Download Python from the official website: <a href="https://www.python.org/downloads/" target="_blank">Python Downloads</a>
 
-During the installation:
+3\. To run the app, double-click on the `app.exe` file.
 
-*   Check the box **"Add Python to PATH"**.
+4\. Open your Browser
 
-### 1.2 Install pip
-
-pip is included with Python 3. Verify that by running these commands in CMD:
-
-    python --version
-
-    pip --version
-
-### 1.3 Install the Dependencies using pip
-
-Run the following command  in CMD to install the required libraries:
-
-    pip install flask pandas openpyxl
-
-2\. Run the App
----------------
-
-To run the app, double-click on the `Start.bat` file.
-
-3\. Open your Browser
---------------------
 
 Once the app is running, open your browser and go to:
 
     http://127.0.0.1:5000
 
-4\. Input worker IDs
---------------------
+5\. Or use the included Start file, that will run the exe and open the Browser for you.
+
+6\. Input worker IDs
+
 You can use a Handheld Scanner or manually add them and click Log button or press Enter
 
 --------------------
