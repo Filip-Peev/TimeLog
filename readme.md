@@ -7,7 +7,7 @@ Running the App on Windows or [in Docker ](#docker-setup)
 To start the app on Windows, follow these steps:
 
 1\. Download the archive from here - 
-<a href="https://github.com/Filip-Peev/TimeLog/releases/download/v3.1/TimeLog_v3.1.rar" target="_blank">TimeLog_v3.1</a>
+<a href="https://github.com/Filip-Peev/TimeLog/releases/download/v3.1/TimeLog_v3.1.zip" target="_blank">TimeLog_v3.1</a>
 
 2\. Extract the archive somewhere.
 
