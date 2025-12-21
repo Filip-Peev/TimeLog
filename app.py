@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 import os
 import re  # For worker_id validation
@@ -41,7 +41,7 @@ def get_last_scan_time(worker_id):
 def log_worker(worker_id):
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
-    current_time = datetime.now()
+    current_time = datetime.now() + timedelta(hours=3)  # Adjust time if needed
     current_time_str = current_time.strftime("%Y-%m-%d %H:%M:%S")
     last_scan_time = get_last_scan_time(worker_id)
     
@@ -73,17 +73,26 @@ def log_worker(worker_id):
         conn.close()
         return True, f"Worker {worker_id} logged in at {current_time_str}"
 
-# Export logs to Excel
+# Export logs to Excel (Updated to save to a persistent location)
 def export_to_excel():
     conn = sqlite3.connect(DB_NAME)
     query = "SELECT worker_id AS 'Worker ID', arrival_time AS 'Arrival Time', leaving_time AS 'Leaving Time' FROM worker_logs"
     df = pd.read_sql_query(query, conn)
     conn.close()
+    
+    # If no records exist, return None
     if df.empty:
         return None
+    
+    # Define a persistent file location (current working directory)
+    output_dir = os.getcwd()  # Current directory where the app is running
     file_name = f"worker_logs_{datetime.now().strftime('%Y-%m-%d')}.xlsx"
-    df.to_excel(file_name, index=False, engine='openpyxl')
-    return file_name
+    file_path = os.path.join(output_dir, file_name)
+    
+    # Save the DataFrame to Excel
+    df.to_excel(file_path, index=False, engine='openpyxl')
+    
+    return file_path  # Return the file path to be sent to the client
 
 # Clear all logs
 def clear_logs():
@@ -117,9 +126,9 @@ def scan_worker():
 
 @app.route('/export')
 def export_logs():
-    file_name = export_to_excel()
-    if file_name:
-        return send_file(file_name, as_attachment=True)
+    file_path = export_to_excel()  # Get the file path where the Excel file is saved
+    if file_path:
+        return send_file(file_path, as_attachment=True)  # Send the file to the client
     flash("No data to export.", "warning")
     return redirect(url_for('index'))
 
