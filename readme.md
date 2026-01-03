@@ -1,7 +1,18 @@
+## Download
+
+You can download the latest `.exe` version of the app from the [Releases page](https://github.com/Filip-Peev/TimeLog/releases).
+
+- **Download** -> [TimeLog v3.1](https://github.com/Filip-Peev/TimeLog/releases/download/v3.1-EXE/Worker.Logger.v3.1.-.EXE.zip)
+
+## Installation
+
+1. Extract anywhere and click "Start.bat" file.
+2. It will run the App and open your browser.
+
 ## Preview of the app
 ![App Screenshot](https://filip-peev.com/home/timelog/images/appPreview1.webp)
 
-Running the App on Windows or [in Docker ](#docker-setup)
+Running the source on Windows or [in Docker ](#docker-setup)
 ==========================
 
 To start the app on Windows, follow these steps:
