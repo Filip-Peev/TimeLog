@@ -3,7 +3,9 @@
 
 ## Download
 
-You can download the latest archived version of the app from the [Releases page](https://github.com/Filip-Peev/TimeLog/releases).
+You can download the latest `.exe` version of the app from the [Releases page](https://github.com/Filip-Peev/TimeLog/releases).
+
+- **Direct Link** -> [Worker.Logger.v3.1.-.EXE.zip](https://github.com/Filip-Peev/TimeLog/releases/download/v3.1-EXE/Worker.Logger.v3.1.-.EXE.zip)
 
 ## Usage
 
