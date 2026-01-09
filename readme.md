@@ -1,13 +1,13 @@
 ## Preview of the app
 ![App Screenshot](https://filip-peev.com/home/timelog/images/appPreview1.webp)
 
+## Download
 
-
-- **Download** -> [TimeLog v3.1](https://github.com/Filip-Peev/TimeLog/releases/download/v3.1-EXE/Worker.Logger.v3.1.-.EXE.zip)
+You can download the latest archived version of the app from the [Releases page](https://github.com/Filip-Peev/TimeLog/releases).
 
 ## Usage
 
-1. Extract the files to a folder and double-click the "Start.bat" file.
+1. Extract the files to any location and double-click the "Start.bat" file.
 2. The App will launch and automatically open your Browser.
 3. Enter worker IDs by scanning them with a Handheld Scanner or typing them manually.
 4. Click the "Log" button or press Enter to save.
